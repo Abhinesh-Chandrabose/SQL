@@ -1,0 +1,20 @@
+select * from department
+
+
+select * from employees
+
+
+select employees.eid, employees.ename,department.dname  from employees inner join department
+
+on employees.did= department.did
+
+
+select employees.eid, employees.ename,department.dname  from employees left join department
+
+on employees.did= department.did
+
+
+select employees.eid, employees.ename,department.dname  from employees right join department
+
+on employees.did= department.did
+ 
